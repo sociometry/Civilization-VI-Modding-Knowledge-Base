@@ -239,7 +239,7 @@ Events can be subscribed by using `Events.SomeEvent.Add(SomeFunction)`.
 | [[Events.UnitRemovedFromMap]] | `playerID [number]`<br/>`unitID [number]` |
 | [[Events.UnitTeleported]] | `playerID [number]`<br/>`unitID [number]`<br/>`iX [number]`<br/>`iY [number]` |
 | [[Events.UnitTradeChanged]] | `playerID [number]`<br/>`unitID [number]` |
-| [[Events.UnitUpgraded]] | `playerID [number]`<br/>`unitID [number]` |
+| [[Events.UnitUpgraded]] | `playerID [number]`<br/>`unitID [number]`<br/>`upgradedUnitIndex [number]` |
 | [[Events.UnitVisibilityChanged]] | `playerID [number]`<br/>`unitID [number]` |
 | [[Events.WMDCountChanged]] | `playerID [number]`<br/>`eWMD [number]` |
 | [[Events.WMDDetonated]] |  |
